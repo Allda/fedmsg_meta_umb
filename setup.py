@@ -54,6 +54,7 @@ entry_points = {
         'ci=fedmsg_meta_umb.ci:CIProcessor',
         'jira=fedmsg_meta_umb.jira:JIRAProcessor',
         'pnc=fedmsg_meta_umb.pnc:ProjectNewCastleProcessor',
+        'tower2umb=fedmsg_meta_umb.tower2umb:Tower2umbProcessor',
     ]
 }
 
